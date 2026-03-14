@@ -10,7 +10,7 @@ body {
     "Helvetica Neue",
     Arial,
     sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.6;
   color: #000;
   background: #fff;
@@ -71,4 +71,18 @@ a:active {
 
 a:hover {
   opacity: 0.55;
+
+
+  
+@media (max-width: 700px) {
+
+  .site {
+    grid-template-columns: 110px 1fr;
+  }
+
+  .site-nav {
+    padding: 30px 16px;
+  }
+
+}
 }
