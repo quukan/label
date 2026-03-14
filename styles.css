@@ -1,5 +1,5 @@
 :root{
-  --nav-width: 200px;
+  --nav-width:180px;
 }
 
 body{
@@ -12,10 +12,10 @@ body{
   Arial,
   sans-serif;
 
-  font-size:13px;
-  line-height:1.7;
-  color:#000;
+  font-size:12px;
+  line-height:1.6;
   background:#fff;
+  color:#000;
 }
 
 /* layout */
@@ -29,24 +29,18 @@ body{
 /* nav */
 
 .site-nav{
-  padding:36px 24px;
+  padding:40px 28px;
+}
+
+.nav-item{
+  display:block;
+  margin:6px 0;
+  font-size:12px;
 }
 
 .site-title{
-  margin:0 0 28px 0;
-  font-size:13px;
+  margin-bottom:18px;
   font-weight:500;
-  letter-spacing:0.04em;
-}
-
-.nav-list{
-  list-style:none;
-  padding:0;
-  margin:0;
-}
-
-.nav-list li{
-  margin:6px 0;
 }
 
 /* links */
@@ -67,15 +61,15 @@ a:hover{
 }
 
 .site-main-inner{
-  max-width:780px;
+  max-width:760px;
 }
 
 h1{
-  font-size:16px;
+  font-size:12px;
   font-weight:500;
-  margin:0 0 24px;
+  margin:0 0 20px;
 }
 
 p{
-  margin:0 0 18px;
+  margin:0 0 16px;
 }
