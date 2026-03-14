@@ -20,7 +20,7 @@ body {
 
 .site {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 150px 1fr;
   min-height: 100vh;
 }
 
@@ -32,7 +32,7 @@ body {
 .nav-item {
   display: block;
   color: #000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   text-decoration: none;
   margin: 0 0 8px 0;
@@ -77,7 +77,7 @@ a:hover {
 @media (max-width: 700px) {
 
   .site {
-    grid-template-columns: 110px 1fr;
+    grid-template-columns: 80px 1fr;
   }
 
   .site-nav {
