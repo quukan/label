@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-<meta charset="utf-8">
-<title>quulabel</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>quulabel</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<div class="site">
-
   <div class="site">
+    <div id="nav"></div>
 
-<div id="nav"></div>
+    <main class="site-main">
+      <div class="site-main-inner">
+        <h1>Page Title</h1>
+        <p>content</p>
+      </div>
+    </main>
+  </div>
 
-<main class="site-main">
-content
-</main>
-
-</div>
-
-<script>
-fetch("nav.html")
-  .then(res => res.text())
-  .then(data => {
-    document.getElementById("nav").innerHTML = data;
-  });
-</script>
-
+  <script>
+    fetch("./nav.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("nav").innerHTML = html;
+      })
+      .catch(err => console.error("nav load error:", err));
+  </script>
 </body>
 </html>
