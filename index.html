@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>quulabel</title>
+<title>LABEL NAME</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,9 +11,10 @@
 
 <div class="site">
 
-  <!-- nav.htmlがここに読み込まれる -->
-  <div id="nav"></div>
+  <!-- 左ナビ -->
+  <div id="nav" class="nav-area"></div>
 
+  <!-- 右コンテンツ -->
   <main class="site-main">
     <div class="site-main-inner">
 
@@ -25,10 +26,9 @@
 
 </div>
 
-<!-- nav読み込み -->
 <script>
 fetch("nav.html")
-  .then(response => response.text())
+  .then(res => res.text())
   .then(data => {
     document.getElementById("nav").innerHTML = data;
   });
