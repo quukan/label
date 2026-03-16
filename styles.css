@@ -72,7 +72,7 @@ a:hover {
 @media (max-width: 700px) {
 
   .site {
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 60px 1fr;
   }
 
   .site-nav {
@@ -80,4 +80,4 @@ a:hover {
   }
 
 }
-}
+
