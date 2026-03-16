@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family:
+    "Space Grotesk",
     -apple-system,
     BlinkMacSystemFont,
     "Helvetica Neue",
     Arial,
     sans-serif;
+
   font-size: 14px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
+
   color: #000;
   background: #fff;
+
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
