@@ -12,12 +12,10 @@ body {
     "Helvetica Neue",
     Arial,
     sans-serif;
-
   font-size: 14px;
-
+  line-height: 1.45;
   color: #000;
   background: #fff;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
