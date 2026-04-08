@@ -22,6 +22,8 @@ body {
 
 .site {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-nav {
@@ -51,6 +53,7 @@ body {
 .site-main {
   margin-left: 150px;
   padding: 40px 60px;
+  flex: 1;
 }
 
 .site-main-inner {
@@ -76,9 +79,10 @@ a:hover {
 }
 
 .site-footer {
-  margin-top: 120px;
+  margin-left: 150px;
+  padding: 20px 60px;
+  font-size: 14px;
   opacity: 0.25;
-  font-size: 10px;
 }
 
   
