@@ -96,5 +96,10 @@ a:hover {
     margin-left: 80px;
     padding: 30px 20px;
   }
-}
 
+  .site-footer {
+    margin-left: 80px;
+    padding: 20px 20px;
+    font-size: 10px;
+  }
+}
