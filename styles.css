@@ -65,6 +65,12 @@ p {
   margin: 0 0 8px 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 a,
 a:link,
 a:visited,
